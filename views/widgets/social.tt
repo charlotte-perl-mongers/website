@@ -1,0 +1,33 @@
+<ul class="author-urls" aria-hidden="true">
+[% FOREACH site IN author.social.keys.sort;
+  IF site == 'github';
+      link = "https://github.com/";
+      text = "GitHub";
+      icon = 'github';
+  ELSIF site == 'linkedin';
+      link = "https://linkedin.com/u/";
+      text = "LinkedIn";
+      icon = 'linkedin';
+  ELSIF site == 'twitter';
+      link = "https://twitter.com/";
+      text = "Twitter";
+      icon = 'twitter';
+  ELSIF site == 'instagram';
+      link = "https://instagram.com/";
+      text = "Instagram";
+      icon = 'instagram';
+  ELSIF site == 'facebook';
+      link = "https://facebook.com/";
+      text = "Facebook";
+      icon = 'facebook';
+  ELSE;
+      NEXT;
+  END; 
+  link = link _ author.social.$site; %]
+    <li>
+        <a itemprop="sameAs" href="[% link %]" target="_blank" rel="noopener noreferrer">
+            <i class="fa fa-[% icon %]"></i> [% text %]
+        </a>
+    </li>
+[% END %]
+</ul>

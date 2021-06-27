@@ -1,0 +1,7 @@
+[% IF widgets.plausible.data_domain and widgets.plausible.data_domain != '' %]
+    [%# Don't log requests from the localhost %]
+    [% IF request.remote_address  != '127.0.0.1' %]
+    <script async defer data-domain="[% widgets.plausible.data_domain %]" src="https://plausible.io/js/plausible.js"></script>
+    [% END %]
+[% END %]
+

@@ -1,0 +1,84 @@
+# === Basic configuration ===
+site:
+    # Basic blog info and settings
+    url: "https://charlotte.pm.org"
+    appname: "charlotte-pm"
+    title: 'Charlotte Perl Mongers'
+    paginate: 5
+    copyright: "Copyright &copy; Charlotte Perl Mongers 2021"
+    license: ""
+    comment_count: true
+    gdpr: false
+    locale: "en_US"
+
+author:
+    # Avatar filename/URL, or gravatar
+    avatar: "gravatar"
+
+    # Hero image URL
+    hero: "hero.jpg"
+
+    # Biographical info
+    name: 'Charlotte Perl Mongers'
+    bio: "The best Perl hackers in all of North Carolina!"
+    location: "Charlotte, North Carolina, USA"
+    email: 'jason@crome-plated.com'
+
+    social:
+        sharing: true
+        github: "charlotte-perl-mongers"
+        twitter: "cromedome"
+        linkedin: ""
+        facebook: ""
+        instagram: ""
+
+# === Menu configuration ===
+menu:
+    -
+        text: "Home"
+        link: "/"
+    -
+        text: "About"
+        link: "/about"
+    -
+        text: "Talks"
+        link: "/talks"
+    -
+        text: "Meetup"
+        link: "https://www.meetup.com/charlotte-pm/"
+    -
+        text: "Calendar"
+        link: "/calendar"
+    -
+        text: "Links/Resources"
+        link: "/resources"
+
+# === Widget configuration ===
+widgets:
+    twitter:
+        email: "author"
+
+    gravatar: 
+        username: cromedome@gmail.com
+
+    plausible:
+        data_domain: "charlotte.pm.org"
+
+# === Waltz/Dancer specific - don't change unless you know what you're doing! ===
+# The default layout to use for your application (located in
+# views/layouts/main.tt)
+layout: "main"
+
+# when the charset is set to UTF-8 Dancer2 will handle for you
+# all the magic of encoding and decoding. You should not care
+# about unicode within your app when this setting is set (recommended).
+charset: "UTF-8"
+
+# Engine config
+template: "template_toolkit"
+engines:
+    template:
+        template_toolkit:
+            start_tag: '[%'
+            end_tag:   '%]'
+

@@ -1,0 +1,17 @@
+<div class="sidebar sticky" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <div class="author-avatar">
+    <a href="/">[% PROCESS widgets/avatar.tt %]</a>
+  </div>
+  <div class="author-content">
+    <h3 class="author-name" itemprop="name">[% author.name %]</h3>
+    <p class="author-bio" itemprop="description">[% author.bio %]</p>
+  </div>
+  <div class="author-urls-wrapper">
+    <ul class="author-urls " aria-hidden="true">
+      <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+        <span itemprop="name">[% author.location %]</span>
+      </li>
+    </ul>  
+    [% PROCESS widgets/social.tt %]
+  </div>
+</div>

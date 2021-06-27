@@ -1,0 +1,16 @@
+<article class="post" itemscope itemtype="http://schema.org/Article">
+  <div class="post-container">
+    <h1 itemprop="name"><a href="[% permalink %]">[% post.title %]</a></h1>
+
+    [% PROCESS partials/post_metadata.tt %]
+
+    <div class="post-style" itemprop="articleBody">
+      [% post.description %]
+      [% output %]
+    </div>
+
+    [% PROCESS partials/tags.tt %]
+    [% PROCESS widgets/share.tt %]
+    [% PROCESS widgets/disqus.tt %]
+  </div>
+</article>

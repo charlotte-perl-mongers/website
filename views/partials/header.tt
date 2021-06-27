@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="[% author.name %]">
+        <link rel="stylesheet" href="/css/site.css">
+        <link rel="canonical" href="[% permalink %]">
+
+        <title>[% title or site.title %]</title>
+        [% PROCESS widgets/plausible.tt %]
+    </head>
+    <body>

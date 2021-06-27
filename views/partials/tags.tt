@@ -1,0 +1,5 @@
+<div class="post-tags">
+  [% FOREACH tag IN post.tags %]
+  <a href="/tags/[% tag %]">[% tag %]</a>
+  [% END %]
+</div>

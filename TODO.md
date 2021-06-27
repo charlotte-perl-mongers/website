@@ -3,13 +3,14 @@
 ### Plan 
 Each one of us:
 * Find 3 themes we like
-* Take 3 pages to make content for.
+* ~~Take 3 pages to make content for.~~
 * Jason 
-	* Seed website repo with this page, base waltz content.
+	* ~~Seed website repo with this page, base waltz content.~~
 	* Links/Resources
 	* Calendar
-	* Fill out social links
-	* Give William access to test blog
+	* ~~Fill out social links~~
+	* ~~Give William access to test blog~~
+    * Themes:
 * William 
 	* Logo
 	* About

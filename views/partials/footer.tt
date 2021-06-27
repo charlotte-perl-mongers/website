@@ -1,0 +1,5 @@
+        <div class="page_footer">
+            <p>[% site.copyright %]. Powered by <a href="http://perldancer.org/">Waltz</a> and <a href="https://perldancer.org">Dancer2</a>.</p>
+        </div>
+    </body>
+</html>

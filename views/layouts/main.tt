@@ -1,0 +1,5 @@
+[% PROCESS partials/header.tt %]
+
+[% content %]
+
+[% PROCESS partials/footer.tt %]

@@ -1,0 +1,19 @@
+[% USE date %]
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="[% post.date %]" itemprop="datePublished dateModified">
+      [% IF post.updated %]
+        [% date.format( post.updated ) %]
+      [% ELSE %]
+        [% date.format( post.date ) %]
+      [% END %]
+    </time>
+  </span>
+
+  <span class="post-categories">
+    [% FOREACH category IN post.categories %]
+    <i class="fa fa-folder"></i>
+    <a href="/category/[% category %]">[% category | ucfirst %]</a>
+  </span>
+  [% END %]
+</div>
