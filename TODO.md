@@ -11,6 +11,9 @@ Each one of us:
 	* ~~Fill out social links~~
 	* ~~Give William access to test blog~~
     * Themes:
+        * https://themes.gohugo.io/hugo-dpsg/
+        * https://themes.gohugo.io/hugo-clarity/
+        * https://themes.gohugo.io/hugo-book/
 * William 
 	* Logo
 	* About
