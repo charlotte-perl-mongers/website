@@ -6,8 +6,8 @@ Each one of us:
 * ~~Take 3 pages to make content for.~~
 * Jason 
 	* ~~Seed website repo with this page, base waltz content.~~
-	* Links/Resources
-	* Calendar
+	* ~~Links/Resources~~
+	* ~~Calendar~~
 	* ~~Fill out social links~~
 	* ~~Give William access to test blog~~
     * Themes:
